@@ -6,7 +6,7 @@
  Usage:
 ```bash
 # Build data image
-docker build -t data -rm .
+docker build -t data .
 
 # Create a data container.
 docker run -name docker-data data true
